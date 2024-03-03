@@ -29,7 +29,8 @@ const ExchangePage = () => {
                                             </div>
 
                                         <h3 className="text-xl flex justify-center font-bold items-center">
-                                                        Select base currency</h3>
+                                                        Select base currency
+                                                        </h3>
 
                                         <select className="select select-bordered max-w-l bg-gray-100 h-[60px] font-bold hover:scale-110">
                                                 <option disabled selected>MNT - Mongolian Tugrik</option>
