@@ -1,7 +1,7 @@
 export const user = {
     id: "2323",
-    email:"sumya@glmai",
-    name:"",
+    email:"rvlzgmlcm.gmail.com",
+    name:"Dashnyamtseren",
     password:"",
     avatar_img:"",
     createdAt:"",

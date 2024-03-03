@@ -37,11 +37,10 @@ const SignUp = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className='md:block hidden w-full h-full bg-blue-600 centered md:h-screen'>
-
+                            <div className='md:block hidden w-full h-full bg-blue-600 centered md:h-screen'>
+                            </div>
                     </div>
-                </div>
-            </section>
+        </section>
     </>
   )
 }
