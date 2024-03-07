@@ -1,11 +1,11 @@
 import React from 'react'
-import Vectored from "@/pages/Vectored.png"
+import Vectored from "@/pages/login/Vectored.png"
 import Image from 'next/image'
-import Placeholder from "@/pages/Placeholder.png"
+import Placeholder from "@/pages/login/Placeholder.png"
 
 const Header = () => {
   return (
-             <div className='mx-auto px-4 max-w-7xl bg-white text-black absolute flex flex-row w-full items-center justify-between text-center h-20'>
+            <div className='mx-auto px-4 max-w-7xl text-black absolute flex w-full items-center justify-between text-center'>
                     <div className='items-center justify-center px-4 grid grid-cols-3'>
                             <Image src={Vectored} />
                                 <p className='font-semibold text-sm'>

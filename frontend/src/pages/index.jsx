@@ -1,14 +1,16 @@
 import React from 'react'
 import Header from './components/Header'
-import Hero from '@/pages/components/Hero'
+import Card from '@/pages/components/Card'
 const HomePage = () => {
   return (
     <>  
-            <div className='flex-1 md:flex w-screen  relative w-full justify-center'>
-              <Header />
-              <div className='flex-1 md:flex w-screen mt-20'>
-                <Hero />
+            <div className='flex-1 bg-gray-100 items-center justify-center'>
+              <div className='flex bg-white justify-center items-center pt-2 h-20'>
+                <Header />
               </div>
+                <div className='bg-gray-100 pt-12 items-center justify-center'>
+                    <Card />
+                </div>
             </div>
     </>
   )
