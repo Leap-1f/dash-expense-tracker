@@ -1,9 +1,26 @@
 import React from 'react'
 import Header from './components/Header'
 import Card from '@/pages/components/Card'
+
+
+
+
+
+
+
 const HomePage = () => {
+  // const  [data,setData]=useState();
+
+  // const getData=async()=>{
+  //   const response=await Axios.get("http:localhost:5000/getData")
+  //   setData(response.data);
+  // }
+
+  // useEffect(() => {
+  //   getData()
+  // },[]);
   return (
-    <>  
+    <>    
             <div className='flex-1 bg-gray-100 items-center justify-center'>
               <div className='flex bg-white justify-center items-center pt-2 h-20'>
                 <Header />
