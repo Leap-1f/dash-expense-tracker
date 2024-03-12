@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from './components/Header'
 import Card from '@/pages/components/Card'
+import BarChart from './components/BarChart'
+import DonutChart from './components/DonutChart'
+
 const HomePage = () => {
   return (
     <>  
@@ -10,6 +13,11 @@ const HomePage = () => {
               </div>
                 <div className='bg-gray-100 pt-12 items-center justify-center'>
                     <Card />
+                </div>
+                <div className='bg-gray-100 pt-12 items-center justify-center'>
+                      <BarChart />
+                </div>
+                <div className='bg-gray-100 pt-12 items-center justify-center'>
                 </div>
             </div>
     </>
