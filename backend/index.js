@@ -1,25 +1,20 @@
 import express from "express"
-const app = express()
+import cors from 'cors'
+
+const app = express();
 const port = 3000;
-import { sql } from "./config/database.js"
-import { user } from "./src/router/user.js";
 
-app.get('/users', async (req, res) => {
-    const data = await sql`SELECT * FROM users`;
-    console.log(data);
-    res.send('Hello World!')
-});
-   
-app.post('/users', async (req, res) => {
-    const post = await sql`INSERT INTO users(name,email) VALUES('Dashaa','dashaa@gmail.com') RETURNING *`  
-    res.send('Hi')
-});
+app.use(logRequest);
+app.use("/users", user);
 
-app.post('/users/postTable', async (req, res) => {
-    const table = await sql`INSERT INTO users(name,email) VALUES('Jamuux','dashaa@gmail.com') RETURNING *`
-    console.log(table);
-    res.send('Hi')
-  });
+const logRequest = (req, res, next) => {
+    console.log("req", req);
+    if(req.body.name === "bat"){
+        res.send("baitg oruulaxq")
+    }
+    next();
+};
+
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-});
+    console.log(`Example app lestening on port ${port}`);
+})

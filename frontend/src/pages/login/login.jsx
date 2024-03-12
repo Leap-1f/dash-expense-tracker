@@ -2,6 +2,9 @@ import React from 'react'
 import Image from "next/image";
 import Logo from "@/pages/login/Logo.png"
 
+
+
+
 const LoginPage = () => {
   return (
         <>
