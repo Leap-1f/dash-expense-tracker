@@ -14,7 +14,7 @@ const Header = () => {
                                 Records</p>
                         </div>
                         <div className='flex justify-between items-center px-4 gap-x-6'>
-                            <button className='bg-blue-500 rounded-3xl w-[90px] h-[30px] text-white text-sm items-center'>
+                            <button className='bg-blue-600 rounded-3xl w-[90px] h-[30px] text-white text-sm items-center'>
                                 + Record
                             </button>
                             <Image src={Placeholder} />

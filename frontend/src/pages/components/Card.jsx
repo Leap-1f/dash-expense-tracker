@@ -4,6 +4,10 @@ import Logo from "@/pages/login/Logo.png"
 import Noise from '@/pages/login/Noise.png'
 import Shape from '@/pages/login/Shape.png'
 import Union from '@/pages/login/Union.png'
+import Green from '@/pages/login/Green.png'
+import Blue from '@/pages/login/Blue.png'
+import Up from '@/pages/login/Up.png'
+import Down from '@/pages/login/Down.png'
 
 const Hero = () => {
   return (
@@ -19,19 +23,27 @@ const Hero = () => {
                 </div>
 
                 <div className="card w-96 bg-white text-black grid gap-x-3">
-                    <h3 className="text-sm font-bold mb-4 ml-4 mt-4">Your income</h3>
-                    <p className="border-b-2"></p>
+                    <h3 className="flex flex-cols-2 px-1 gap-x-1 text-sm font-bold mb-4 ml-4 mt-4 items-center">
+                        <Image src={Green} className='relative'/>
+                        Your income</h3>
+                    <p className="border-b"></p>
                     <p className="text-4xl font-semibold ml-4 mt-4">1,200,000$</p>
-                    <p className="text-xl mb-4 text-gray-400 ml-4">Your Income Amount</p>
-                    <p className="font-semibold ml-4 mt-4 mb-6">32% from last month</p>
+                    <p className="text-xl mb-4 text-gray-400 ml-4 mt-2">Your Income Amount</p>
+                    <p className="flex flex-cols-2 gap-x-1 ml-4 mt-4 mb-6 items-center">
+                        <Image src={Up} className='relative w-[20px] h-[20px]'/>
+                        32% from last month</p>
                 </div>
 
                 <div className="card w-96 bg-white text-black grid gap-x-3">
-                    <h3 className="text-sm font-bold mb-4 ml-4 mt-4">Total Expenses</h3>
-                    <p className="border-b-2"></p>
+                    <h3 className="flex flex-cols-2 px-1 gap-x-1 text-sm font-bold mb-4 ml-4 mt-4 items-center">
+                        <Image src={Blue} className='relative' />
+                        Total Expenses</h3>
+                    <p className="border-b"></p>
                     <p className="text-4xl font-semibold ml-4 mt-4">-1,200,000$</p>
-                    <p className="text-xl mb-4 text-gray-400 ml-4">Your Income Amount</p>
-                    <p className="font-semibold ml-4 mt-4 mb-6">32% from last month</p>
+                    <p className="text-xl mb-4 text-gray-400 ml-4 mt-2">Your Income Amount</p>
+                    <p className="flex flex-cols-2 gap-x-1 ml-4 mt-4 mb-6 items-center">
+                        <Image src={Down} className='relative w-[20px] h-[20px]'/>
+                        32% from last month</p>
                 </div>
             </div>
         </>
