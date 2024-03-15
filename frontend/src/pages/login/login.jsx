@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Logo from "@/pages/login/Logo.png"
+import Link from "next/link";
 
 
 
@@ -25,8 +26,7 @@ const LoginPage = () => {
                             <form action="" className='flex flex-col gap-4 text-sm'>
                                 <input type="text" className='p-2 rounded-md border mt-8 bg-gray-100' name="email" placeholder='Email'/>
                                 <input type="password" className='p-2 rounded-md border bg-gray-100' name="email" placeholder='Password'/>
-                                <button className='bg-blue-600 rounded-2xl py-2 text-white hover:scale-110'>
-                                            Log in
+                                <button className='bg-blue-600 rounded-2xl py-2 text-white hover:scale-110'> Log in
                                 </button>
                             </form>
                                 <div className='mt-6 text-xs flex justify-center font-semibold items-center'>
@@ -34,6 +34,9 @@ const LoginPage = () => {
                                             <button className='py-2 px-5 rounded-xl text-blue-500 hover:scale-110'>
                                                     Sign up
                                             </button>
+                                            <Link href="/login/signup">
+                                                Sign up orox
+                                            </Link>
                                 </div>
                         </div>
                     </div>

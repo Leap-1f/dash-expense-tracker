@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Logo from "@/pages/login/Logo.png";
+import Link from "next/link";
 
 const SignUp = () => {
 return ( 
@@ -62,6 +63,9 @@ return (
                                         className='py-2 px-5 rounded-xl text-blue-500 hover:scale-110'>
                                                 Log in
                                         </button>
+                                        <Link href="/login/loading">
+                                                loading
+                                        </Link>
                             </div>
                     </div>
                 </div>

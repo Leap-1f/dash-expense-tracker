@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image"
 import Logo from "@/pages/login/Logo.png"
 import Money from "@/pages/login/Money.png"
+import Link from "next/link";
 
 const ExchangePage = () => {
   return (
@@ -30,12 +31,12 @@ const ExchangePage = () => {
 
                                         <h3 className="text-2xl flex justify-center font-bold items-center">
                                                         Set up your cash Balance</h3>
-
-                                        <div className="max-w-l bg-gray-100 border-2 rounded-xl h-[60px] text-gray justify-center items-center ">
-                                                <p className="items-center mt-4 px-8 text-xl text-gray-400">Balance</p>
-                                        </div>
+                                            <input placeholder='Balance' type='number' id="quantity" name="quantity" min="1" max="5" className="items-center w-full h-[60px] mt-4 px-8 text-xl text-gray-400 bg-gray-100 rounded-2xl border-2 " />
                                                 <p className="mb-6 text-sm w-[420px]">
                                                         How much cash do you have in your wallet</p>
+                                                        <Link href="/login/exchange3">
+                                                            exchange 3
+                                                        </Link>
                                                 <button className='bg-blue-600 rounded-3xl py-2 text-white hover:scale-110 h-[50px]'>Confirm
                                                 </button>
                                         </form>

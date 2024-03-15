@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image"
 import Logo from "@/pages/login/Logo.png"
 import Money from "@/pages/login/Money.png"
+import Link from "next/link";
 
 const ExchangePage = () => {
   return (
@@ -33,7 +34,7 @@ const ExchangePage = () => {
                                                         </h3>
 
                                         <select className="select select-bordered max-w-l bg-gray-100 h-[60px] font-bold hover:scale-110">
-                                                <option disabled selected>MNT - Mongolian Tugrik</option>
+                                                <option>MNT - Mongolian Tugrik</option>
                                                 <option>Han Solo</option>
                                                 <option>Greedo</option>
                                         </select>
@@ -42,6 +43,9 @@ const ExchangePage = () => {
                                                         transaction in other currencies will be calculated based on this one</p>
                                                 <button className='bg-blue-600 rounded-3xl py-2 text-white hover:scale-110 h-[50px]'>Confirm
                                                 </button>
+                                                <Link href="/login/exchange2">
+                                                    exchange 2
+                                                </Link>
                                         </form>
                                 </div>
                             </div>

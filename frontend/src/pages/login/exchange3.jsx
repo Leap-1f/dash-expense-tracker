@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image"
 import Logo from "@/pages/login/Logo.png"
 import Money from "@/pages/login/Money.png"
+import Link from "next/link";
 
 const ExchangePage = () => {
   return (
@@ -37,6 +38,9 @@ const ExchangePage = () => {
                                                 <button className='bg-blue-600 rounded-3xl py-2 text-white text-xl hover:scale-110 h-[50px]'>
                                                     Go to Dashboard
                                                 </button>
+                                                <Link href="/dashboard/Dashboard">
+                                                    dashboard
+                                                </Link>
                                         </form>
                                 </div>
                             </div>
