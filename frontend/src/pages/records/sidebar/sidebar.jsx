@@ -92,7 +92,7 @@ const Sidebar = () => {
                       </div>
                 </div>
                 <div className='pt-6'>
-                  <input type="range" min={0} max="100" value="40" className="range range-info" />
+                <input type="range" min={0} max="100" value="40" className="range range-primary" />
                 </div>
         </div>
     </>

@@ -25,16 +25,24 @@ const Hero = () => {
                 </div>
             </div>
             <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-4 text-md w-full h-[50px] items-center rounded-xl'>
-                <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>                
+                <div className="form-control relative">
+                <label className="label cursor-pointer">
+                    <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                </label>
+                </div>               
                     Select all
                 <p className='relative m-auto justify-end mr-4 text-sm'>
                     - 35,000$
                 </p>
             </div>
-            <h3 className='relative font-semibold text-xl pt-4'>Today</h3>
+            <h3 className='relative font-md text-xl pt-4'>Today</h3>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                    <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                     <Image src={Group} className='w-[25px] h-[25px]'/>                
                         Lending & Renting
                     <p className='relative m-auto justify-end mr-4'>
@@ -43,8 +51,12 @@ const Hero = () => {
                 </div>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                    <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
-                        <Image src={Fork}  className='w-[25px] h-[25p]'/>      
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
+                        <Image src={Fork}  className='w-[25px] h-[25p] text-md'/>      
                         Food & Drinks
                     <p className='relative m-auto justify-end mr-4'>
                         - 1,000$
@@ -52,7 +64,11 @@ const Hero = () => {
                 </div>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                    <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                         <Image src={Fork}  className='w-[25px] h-[25p]'/>               
                         Food & Drinks
                     <p className='relative m-auto justify-end mr-4'>
@@ -61,7 +77,11 @@ const Hero = () => {
                 </div>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                    <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                         <Image src={Fork}  className='w-[25px] h-[25p]'/>               
                         Food & Drinks
                     <p className='relative m-auto justify-end mr-4'>
@@ -69,7 +89,11 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                    <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                         <Image src={Fork}  className='w-[25px] h-[25p]'/>                
                         Food & Drinks
                     <p className='relative m-auto justify-end mr-4'>
@@ -80,7 +104,11 @@ const Hero = () => {
                 <h3 className='relative font-semibold text-xl pt-4'>Yesterday</h3>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                    <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                     <Image src={Fork}  className='w-[25px] h-[25p]'/>                
                         Food & Drinks
                     <p className='relative m-auto justify-end mr-4'>
@@ -89,7 +117,11 @@ const Hero = () => {
                 </div>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                     <Image src={Fork}  className='w-[25px] h-[25p]'/>      
                     Food & Drinks
                 <p className='relative m-auto justify-end mr-4'>
@@ -98,7 +130,11 @@ const Hero = () => {
                 </div>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                     <Image src={Fork}  className='w-[25px] h-[25p]'/>               
                     Food & Drinks
                 <p className='relative m-auto justify-end mr-4'>
@@ -107,7 +143,11 @@ const Hero = () => {
                 </div>
 
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                     <Image src={Fork}  className='w-[25px] h-[25p]'/>               
                     Food & Drinks
                 <p className='relative m-auto justify-end mr-4'>
@@ -115,7 +155,11 @@ const Hero = () => {
                 </p>
                 </div>
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                     <Image src={Fork}  className='w-[25px] h-[25p]'/>                
                     Food & Drinks
                 <p className='relative m-auto justify-end mr-4'>
@@ -123,7 +167,11 @@ const Hero = () => {
                 </p>
                 </div>
                 <div className='flex flex-cols-2 pl-4 justify-start bg-white gap-x-2 w-full h-[55px] items-center rounded-xl'>
-                <MdCheckBoxOutlineBlank className='relative w-[25px] h-[25px]'/>
+                    <div className="form-control relative">
+                    <label className="label cursor-pointer">
+                        <input type="checkbox" defaultChecked className="checkbox checkbox-primary" />
+                    </label>
+                    </div> 
                     <Image src={Fork}  className='w-[25px] h-[25p]'/>                
                     Food & Drinks
                 <p className='relative m-auto justify-end mr-4'>
